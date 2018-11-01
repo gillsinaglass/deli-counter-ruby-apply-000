@@ -3,14 +3,12 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     current_line="The line is currently:"
-
-    end
-    puts "#{current_line}"
+    puts "#{current_line} #{katz_deli.length}"
   end
 end
 
-def take_a_number(katz_deli, name)
-  katz_deli << name 
+def take_a_number(katz_deli)
+  katz_deli <<   
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
